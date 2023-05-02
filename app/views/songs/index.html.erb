@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Songs</h1>
+
+<div id="songs">
+  <% @songs.each do |song| %>
+    <%= render song %>
+    <div>---------------------</div>
+  <% end %>
+</div>
